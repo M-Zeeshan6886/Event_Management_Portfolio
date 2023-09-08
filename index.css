@@ -12,6 +12,14 @@
 body {
   background: #0f0f0f;
 }
+/* .wrappe_content{
+  background-color: #fff;
+  width: 1450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
 .event-header-wrapper {
   height: 100vh;
   background-image: url("./Assets/head-bg.png");
@@ -20,6 +28,7 @@ body {
   background-position: end;
   @media only screen and (max-width: 600px) {
     background-image: none;
+    height: auto;
   }
 }
 
@@ -68,7 +77,7 @@ body {
 .about_section_wrapper {
   background: linear-gradient(98deg, #84068c -68.49%, #141018 86.15%);
   /* filter: blur(2px); */
-  padding: 5rem;
+  padding: 5rem 0rem;
 }
 .about_section_left h1 {
   color: #fff;
@@ -97,6 +106,7 @@ body {
 
 .problem_section_wrapper {
   height: 70vh;
+  padding: 1rem 0rem;
   display: flex;
   align-items: center;
   @media only screen and (max-width: 600px) {
@@ -153,7 +163,7 @@ body {
   background: #0f0f0f;
   @media only screen and (max-width: 600px) {
     height: auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 }
 
