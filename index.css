@@ -1,18 +1,126 @@
+@font-face {
+  font-family: Bebas;
+  src: url(./Fonts/bebas/Bebas-Regular.otf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600&family=Raleway:wght@300;400;500&display=swap");
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    /* font-family: "Kenyan-coffee", "Raleway"; */
-  }
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
-  body{
-    background: #0F0F0F;
+body {
+  background: #0f0f0f;
+}
+.event-header-wrapper {
+  height: 100vh;
+  background-image: url("./Assets/head-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: end;
+  @media only screen and (max-width: 600px) {
+    background-image: none;
   }
-.event-header-wrapper{
-    padding: 1rem 0rem ;
-background-color: aqua;
-    /* background-image: url("./Assets/head-bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
+}
+
+.header_contianer_left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: aqua; */
+  @media only screen and (max-width: 600px) {
+    padding: 3rem 0rem;
+    height: auto;
+  }
+}
+.header_contianer_left h1 {
+  color: #fff;
+  font-family: Bebas;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 9rem;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0rem;
+  }
+}
+.header_contianer_left p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 161.687%; /* 2.9104rem */
+}
+.header_contianer_right {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  @media only screen and (max-width: 600px) {
+    height: auto;
+  }
+}
+
+.about_section_wrapper {
+  background: linear-gradient(98deg, #84068c -68.49%, #141018 86.15%);
+  /* filter: blur(2px); */
+  padding: 5rem;
+}
+.about_section_left h1{
+  color: #FFF;
+  font-family: Bebas;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.687%; /* 5.8207rem */
+}
+
+.about_section_left p{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 161.687%; /* 2.9104rem */
+}
+
+.about_section_right{
+  height: 50vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: right;
+}
+
+.problem_container_middle{
+  height: 50vh;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.problem_container_middle h1{
+  color: #D7D6D6;
+font-family: Bebas;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 161.687%; /* 5.4974rem */
+}
+
+.problem_container_right{
+height: 50vh;
+padding: 2rem 0rem;
+}
+.problem_container_right p{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 161.687%; /* 2.9104rem */
 }
