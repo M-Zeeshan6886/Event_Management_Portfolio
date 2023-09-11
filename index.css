@@ -244,3 +244,18 @@ line-height: 161.687%; /* 72.759px */
 .boarding_container_bottom{
   margin-top: 3rem;
 }
+
+
+.footer p{
+  color: #E9D014;
+  text-align: center;
+  font-family: Metal;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.687%; /* 64.675px */
+  letter-spacing: 18.8px;
+  @media only screen and (max-width: 600px) {
+    font-size: 35px;
+  }
+}
