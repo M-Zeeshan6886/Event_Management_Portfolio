@@ -2,6 +2,10 @@
   font-family: Bebas;
   src: url(./Fonts/bebas/Bebas-Regular.otf);
 }
+@font-face {
+  font-family: Montserrat;
+  src: url(./Fonts/montserrat/Montserrat-Regular.ttf);
+}
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600&family=Raleway:wght@300;400;500&display=swap");
 * {
   padding: 0px;
@@ -86,6 +90,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 161.687%; /* 5.8207rem */
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }
 
 .about_section_left p {
@@ -119,6 +126,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2rem 0rem;
+  @media only screen and (max-width: 600px) {
+    /* background-color: aqua; */
+    height: auto;
+  }
 }
 .problem_container_right_p1 {
   width: 20%;
@@ -159,11 +170,12 @@ body {
 }
 
 .plate_section_wrapper {
-  padding: 7rem 0rem;
+  padding: 3rem 0rem;  
   background: #0f0f0f;
   @media only screen and (max-width: 600px) {
     height: auto;
-    margin-top: 10rem;
+    /* margin-top: 5rem; */
+    /* background-color: aqua; */
   }
 }
 
@@ -175,6 +187,9 @@ body {
   font-weight: 400;
   text-align: center;
   line-height: 161.687%; /* 7.2759rem */
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }
 .plate_container_bottom {
   margin-top: 4rem;
@@ -211,6 +226,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 161.687%; /* 7.2759rem */
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }
 .onboarding_wrapper_section{
   padding: 3rem 0rem ;
@@ -240,6 +258,9 @@ font-size: 45px;
 font-style: normal;
 font-weight: 400;
 line-height: 161.687%; /* 72.759px */
+@media only screen and (max-width: 600px) {
+  font-size: 2.5rem;
+}
 }
 .boarding_container_bottom{
   margin-top: 3rem;
