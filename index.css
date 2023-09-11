@@ -105,7 +105,7 @@ body {
 }
 
 .problem_section_wrapper {
-  height: 70vh;
+  height: auto;
   padding: 1rem 0rem;
   display: flex;
   align-items: center;
@@ -159,7 +159,7 @@ body {
 }
 
 .plate_section_wrapper {
-  padding: 2rem 0rem;
+  padding: 7rem 0rem;
   background: #0f0f0f;
   @media only screen and (max-width: 600px) {
     height: auto;
@@ -211,4 +211,36 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 161.687%; /* 7.2759rem */
+}
+.onboarding_wrapper_section{
+  padding: 3rem 0rem ;
+/* background-color: aqua; */
+}
+.boarding_container_top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boarding_container_top span{
+  color: rgba(213, 62, 145, 0.44);
+font-family: Metal;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 161.687%; /* 64.675px */
+letter-spacing: 13px;
+@media only screen and (max-width: 600px) {
+  display: none;
+}
+}
+.boarding_container_top h1{
+  color: #FFF;
+font-family: Bebas;
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 161.687%; /* 72.759px */
+}
+.boarding_container_bottom{
+  margin-top: 3rem;
 }
